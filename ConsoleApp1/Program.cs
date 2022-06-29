@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
            Random rnd = new Random();
-            int rNumber = rnd.Next(0, 101);
-            Console.WriteLine(rNumber);
+            int rNum = rnd.Next(0, 101);
+            Console.WriteLine(rNum);
         }
     }
 }
