@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Random rnd = new Random();
+            int rNumber = rnd.Next(0, 101);
+            Console.WriteLine(rNumber);
         }
     }
 }
